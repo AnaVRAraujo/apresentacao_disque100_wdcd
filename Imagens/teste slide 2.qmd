@@ -1,0 +1,63 @@
+---
+title: "ANÁLISE DE PADRÕES ESPACIAIS DAS DENÚNCIAS NO DISQUE 100 NO NORDESTE NO ANO DE 2024"
+author: "Ana V. R. de Araújo e Jodavid de A. Ferreira"
+#date: "2025-05-07"
+#date-format: "D [de] MMMM [de] YYYY"
+format: 
+  revealjs:
+    include-in-header:
+      text: |
+        <style>
+        .reveal .title {
+          font-size: 1.5em;
+        }
+        </style>
+editor: visual
+---
+
+#     
+# format: 
+#   revealjs:
+#     include-in-header:
+#       text: |
+#         <style>
+#         .reveal .title {
+#           font-size: 1em;
+#         }
+#         /* Estilo para o slide do mapa */
+#         .map-slide .reveal .slide-content {
+#           height: 100%;
+#         }
+#         </style>
+# editor: visual
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## MAPA SCAN
+
+```{r}
+# Carregue o pacote necessário
+library(htmltools)
+
+# Inclua o arquivo HTML do mapa
+includeHTML("grafico.html")
+```
+
+```{r}
+includeHTML("grafico2.html")
